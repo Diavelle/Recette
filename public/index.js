@@ -207,20 +207,37 @@ document.addEventListener('DOMContentLoaded', () => {
     // Soumettre le formulaire pour ajouter une recette
     recipeForm.addEventListener('submit', (event) => {
         event.preventDefault();
-
-        const formData = new FormData(recipeForm);
-        formData.append('ingredients', JSON.stringify(ingredients)); // Utiliser JSON.stringify pour envoyer un tableau
-        formData.append('preparations', JSON.stringify(preparations)); // Utiliser JSON.stringify pour envoyer un tableau
-
+    
+        // Récupérer les valeurs du formulaire
+        const title = recipeForm.querySelector('[name="title"]').value;
+        const ingredients = []; // Assurez-vous d'avoir un moyen de récupérer vos ingrédients sous forme de tableau
+        const preparations = []; // Assurez-vous d'avoir un moyen de récupérer vos préparations sous forme de tableau
+    
+        // Créer l'objet de données à envoyer
+        const data = {
+            title,
+            ingredients: JSON.stringify(ingredients), // Utiliser JSON.stringify pour envoyer un tableau
+            preparations: JSON.stringify(preparations), // Utiliser JSON.stringify pour envoyer un tableau
+        };
+    
         fetch('/api/recettes', {
             method: 'POST',
-            body: formData,
+            headers: {
+                'Content-Type': 'application/json' // Indiquer que le corps de la requête est en JSON
+            },
+            body: JSON.stringify(data), // Convertir les données en chaîne JSON
         })
-        .then(() => {
+        .then(response => response.json())
+        .then(data => {
+            console.log('Recette ajoutée avec succès:', data);
             addRecipeForm.style.display = 'none';
             loadRecettes(); // Recharger les recettes
+        })
+        .catch(error => {
+            console.error('Erreur lors de l\'ajout de la recette:', error);
         });
     });
+
 
     // Écouteur d'événement pour la recherche
     searchInput.addEventListener('input', () => {
