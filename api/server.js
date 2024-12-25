@@ -47,13 +47,12 @@ const writeRecettes = (recettes) => {
     fs.writeFileSync(recettesFilePath, recettesJson);
 };
 
-// API pour récupérer toutes les recettes
+// Création de l'API
 app.get('/api/recettes', (req, res) => {
     const recettes = readRecettes();
     res.json(recettes);
 });
 
-// API pour récupérer une recette par son ID
 app.get('/api/recettes/:id', (req, res) => {
     const recetteId = req.params.id;
     const recettes = readRecettes();
@@ -66,7 +65,6 @@ app.get('/api/recettes/:id', (req, res) => {
     res.json(recette);
 });
 
-// API pour ajouter une nouvelle recette
 app.post('/api/recettes', upload.single('image'), (req, res) => {
     const { title, ingredients, preparations } = req.body;
 
@@ -104,7 +102,6 @@ app.post('/api/recettes', upload.single('image'), (req, res) => {
     res.status(201).send(newRecette);
 });
 
-// API pour supprimer une recette par son id
 app.delete('/api/recettes/:id', (req, res) => {
     const recetteId = req.params.id;
     const recettes = readRecettes();
@@ -131,4 +128,6 @@ app.delete('/api/recettes/:id', (req, res) => {
 });
 
 // Exporter l'API comme une fonction handler pour Vercel
-module.exports = app;
+module.exports = (req, res) => {
+    app(req, res); // Utilisation du serveur Express pour gérer la requête
+};

@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "api/recettes.js",
+        "src": "api/server.js",
         "use": "@vercel/node"
       },
       {
@@ -12,8 +12,12 @@
     ],
     "routes": [
       {
+        "src": "/api/recettes(.*)",
+        "dest": "/api/server.js"
+      },
+      {
         "src": "/(.*)",
-        "dest": "/api/recettes.js"
+        "dest": "/public/$1"
       }
     ]
   }
