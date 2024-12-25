@@ -208,10 +208,9 @@ document.addEventListener('DOMContentLoaded', () => {
     recipeForm.addEventListener('submit', (event) => {
         event.preventDefault();
     
-        // Créer l'objet avec les données du formulaire
         const title = recipeForm.querySelector('[name="title"]').value;
-        const ingredients = []; // Assurez-vous d'avoir un moyen de récupérer vos ingrédients sous forme de tableau
-        const preparations = []; // Assurez-vous d'avoir un moyen de récupérer vos préparations sous forme de tableau
+        const ingredients = []; // Remplissez ce tableau avec les ingrédients du formulaire
+        const preparations = []; // Remplissez ce tableau avec les préparations du formulaire
     
         const data = {
             title,
@@ -226,7 +225,12 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             body: JSON.stringify(data), // Convertir l'objet de données en JSON
         })
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Erreur ${response.status}: ${response.statusText}`);
+            }
+            return response.json();
+        })
         .then(data => {
             console.log('Recette ajoutée avec succès:', data);
             addRecipeForm.style.display = 'none';
@@ -236,6 +240,7 @@ document.addEventListener('DOMContentLoaded', () => {
             console.error('Erreur lors de l\'ajout de la recette:', error);
         });
     });
+
 
 
     // Écouteur d'événement pour la recherche

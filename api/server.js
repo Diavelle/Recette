@@ -66,29 +66,31 @@ app.get('/api/recettes/:id', (req, res) => {
 });
 
 app.post('/api/recettes', upload.single('image'), (req, res) => {
+    console.log("Données reçues:", req.body);
     const { title, ingredients, preparations } = req.body;
 
+    // Vérification de la présence des champs requis
     if (!title || !ingredients || !preparations) {
-        return res.status(400).send({ error: 'Le titre est requis.' });
+        return res.status(400).json({ error: 'Le titre, les ingrédients et les préparations sont requis.' });
     }
 
     let ingredientList = [];
     let preparationList = [];
 
     try {
-        ingredientList = JSON.parse(ingredients);
+        ingredientList = JSON.parse(ingredients); // Convertir en tableau si c'est du JSON
     } catch (error) {
-        return res.status(400).send({ error: 'Ingrédients doivent être un tableau JSON.' });
+        return res.status(400).json({ error: 'Ingrédients doivent être un tableau JSON.' });
     }
 
     try {
-        preparationList = JSON.parse(preparations);
+        preparationList = JSON.parse(preparations); // Convertir en tableau si c'est du JSON
     } catch (error) {
-        return res.status(400).send({ error: 'Préparations doivent être un tableau JSON.' });
+        return res.status(400).json({ error: 'Préparations doivent être un tableau JSON.' });
     }
 
     const newRecette = {
-        id: uuidv4(),
+        id: uuidv4(), // Générer un ID unique
         title,
         ingredients: ingredientList,
         preparations: preparationList,
@@ -99,7 +101,8 @@ app.post('/api/recettes', upload.single('image'), (req, res) => {
     recettes.push(newRecette);
     writeRecettes(recettes);
 
-    res.status(201).send(newRecette);
+    // Répondre avec la nouvelle recette
+    res.status(201).json(newRecette); // Renvoi la recette créée en JSON
 });
 
 app.delete('/api/recettes/:id', (req, res) => {
