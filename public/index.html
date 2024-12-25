@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recettes</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="four.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>Recettes</h1>
+    </header>
+
+    <div id="searchContainer">
+        <input type="text" id="searchInput" placeholder="Rechercher une recette...">
+    </div>
+
+    <!-- Conteneur des recettes -->
+    <div id="recettesContainer"></div>
+
+    <!-- Bouton pour ajouter une recette -->
+    <button id="addRecipeButton">+</button>
+
+    <!-- Formulaire caché pour ajouter une recette -->
+<!-- Formulaire d'ajout de recette -->
+<div id="addRecipeForm">
+    <h2>Ajouter une recette</h2>
+    <form id="recipeForm" enctype="multipart/form-data">
+        <input type="text" id="recipeTitle" name="title" placeholder="Titre de la recette" required>
+
+        <!-- Partie Ingrédients -->
+        <div>
+            <input type="text" id="ingredientInput" placeholder="Ajouter un ingrédient">
+            <button type="button" id="addIngredientButton">Ajouter</button>
+            <ul id="ingredientList"></ul> <!-- Liste des ingrédients ajoutés -->
+        </div>
+
+        <!-- Partie Préparation -->
+        <div>
+            <input id="preparationInput" placeholder="Ajouter une étape de préparation"></input>
+            <button type="button" id="addPreparationButton">Ajouter</button>
+            <ul id="preparationList"></ul> <!-- Liste des étapes de préparation -->
+        </div>
+
+        <!-- Image de la recette -->
+        <input type="file" name="image" accept="image/*">
+        <div id="addRecipeButtonForm">
+            <button type="submit">Créer</button>
+            <button id="cancelButton">Annuler</button>
+        </div>
+
+    </form>
+</div>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recettes</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="four.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>Modifier la recette</h1>
+    </header>
+
+    <form id="editRecipeForm">
+        <label for="editTitle">Titre :</label>
+        <input type="text" id="editTitle" name="title" required><br><br>
+    
+        <!-- Partie Ingrédients -->
+        <div>
+            <input type="text" id="editIngredientInput" placeholder="Ajouter un ingrédient">
+            <button type="button" id="editAddIngredientButton">Ajouter</button>
+            <ul id="editIngredientList"></ul> <!-- Liste des ingrédients ajoutés -->
+        </div>
+    
+        <!-- Partie Préparation -->
+        <div>
+            <input id="editPreparationInput" placeholder="Ajouter une étape de préparation"></input>
+            <button type="button" id="editAddPreparationButton">Ajouter</button>
+            <ul id="editPreparationList"></ul> <!-- Liste des étapes de préparation -->
+        </div>
+    
+        <button id="submitEditRecipe" type="submit">Sauvegarder les modifications</button>
+    </form>
+    
+    <script src="editRecette.js"></script>
+</body>
+</html>

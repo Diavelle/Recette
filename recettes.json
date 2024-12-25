@@ -1,0 +1,307 @@
+[
+  {
+    "id": "dec104f0-23e4-4c79-90a8-5eda1897417a",
+    "title": "Sauté de crevettes et légumes au wok",
+    "ingredients": [
+      "200 g de crevettes décortiquées",
+      "1 poivron, 1 carotte, 1 poignée de pois gourmands",
+      "1 c. à soupe de sauce soja",
+      "1 c. à soupe d’huile d’olive ou de sésame"
+    ],
+    "preparations": [
+      "Fais chauffer l’huile dans un wok ou une grande poêle.",
+      "Ajoute les légumes coupés en fines lamelles. Fais revenir 5 min.",
+      "Incorpore les crevettes, la sauce soja et laisse cuire 5-7 min supplémentaires."
+    ],
+    "image": "/uploads/1734019479635.jpeg"
+  },
+  {
+    "id": "3a15541d-235f-4807-94e2-34714541f7ca",
+    "title": "Saumon en papillote et riz basmati",
+    "ingredients": [
+      "2 pavés de saumon",
+      "1 citron, 1 courgette, 1 carotte",
+      "1 c. à soupe d’huile d’olive",
+      "Sel, poivre, aneth",
+      "120 g de riz basmati"
+    ],
+    "preparations": [
+      "Préchauffe le four à 180°C.",
+      "Coupe les légumes en julienne. Place-les avec le saumon sur une feuille de papier sulfurisé.",
+      "Assaisonne avec l’huile, citron, sel, poivre et aneth. Ferme bien la papillote.",
+      "Enfourne pour 20-25 min et cuis le riz pendant ce temps."
+    ],
+    "image": "/uploads/1734020974363.jpg"
+  },
+  {
+    "id": "8febfef7-88d7-441d-81db-8a0fd9e56e6a",
+    "title": "Gratin de légumes et mozzarella",
+    "ingredients": [
+      "1 aubergine, 1 courgette, 2 tomates",
+      "1 boule de mozzarella",
+      "1 c. à soupe d’huile d’olive",
+      "1 c. à soupe d’herbes de Provence, sel, poivre"
+    ],
+    "preparations": [
+      "Préchauffe le four à 190°C.",
+      "Coupe les légumes et la mozzarella en rondelles.",
+      "Dispose les légumes et la mozzarella en couches dans un plat.",
+      "Arrose d’huile, ajoute les herbes, puis enfourne pour 30-35 min."
+    ],
+    "image": "/uploads/1734021140564.jpg"
+  },
+  {
+    "id": "845144b6-2c7d-4063-9ec1-b9fa46059501",
+    "title": "Pâtes complètes aux légumes et pesto",
+    "ingredients": [
+      "150 g de pâtes complètes",
+      "1 courgette, 1 poivron, 1 poignée de tomates cerises",
+      "2 c. à soupe de pesto",
+      "1 c. à soupe d’huile d’olive"
+    ],
+    "preparations": [
+      "Cuis les pâtes selon les instructions.",
+      "Fais revenir les légumes coupés en morceaux dans l’huile.",
+      "Mélange les pâtes, les légumes et le pesto avant de servir."
+    ],
+    "image": "/uploads/1734021323894.jpg"
+  },
+  {
+    "id": "2c64a597-59ee-4f74-8bbb-4380d8fbff9a",
+    "title": "Pâtes complètes au thon et courgettes (sans four)",
+    "ingredients": [
+      "150 g de pâtes complètes",
+      "1 courgette, 1 oignon",
+      "1 boîte de thon au naturel",
+      "2 c. à soupe de crème légère (ou fromage frais)",
+      "Sel, poivre"
+    ],
+    "preparations": [
+      "Fais cuire les pâtes selon les instructions.",
+      "Pendant ce temps, fais revenir l’oignon et la courgette coupés en morceaux dans une poêle avec un peu d’huile.",
+      "Égoutte le thon et mélange avec les légumes. Ajoute la crème, assaisonne et mélange avec les pâtes."
+    ],
+    "image": "/uploads/1734021657035.jpg"
+  },
+  {
+    "id": "f7de3285-ac78-4725-b69c-d81d0ccc68b7",
+    "title": "Riz au poulet, légumes et sauce curry coco",
+    "ingredients": [
+      "2 filets de poulet",
+      "120g de riz basmati",
+      "1 courgette",
+      "1 carotte",
+      "20cl de lait de coco",
+      "1 c. à soupe de curry",
+      "sel, poivre et huile d'olive"
+    ],
+    "preparations": [
+      "Faite cuire le riz selon les indications du paquet",
+      "Couper le poulet, la courgette et la carotte en morceaux",
+      "Faites chauffer un filet d'huile d'olive dans une poêle. Ajoutez le poulet et faites-le revenir 5 à 7 minutes à feu moyen, jusqu'à ce qu'il soit doré et bien cuit à cœur.",
+      "Ajouter les légumes et faite cuire 5 à 7 min",
+      "Verser le lait de coco et le curry",
+      "Assaisonner et laisser mijoter 10 min",
+      "Servez le tout avec le riz"
+    ],
+    "image": "/uploads/1734285843539.jpg"
+  },
+  {
+    "id": "9a341df7-91c2-4919-b15c-7350a28e0e56",
+    "title": "Riz sauté aux légumes et œufs brouillés",
+    "ingredients": [
+      "120 g de riz",
+      "1 oignon",
+      "1 carotte",
+      "1 courgette",
+      "2 oeufs",
+      "1 c. à soupe de sauce soja",
+      "1 c. à soupe d'huile d'huile d'olive",
+      "Sel, poivre"
+    ],
+    "preparations": [
+      "Faites cuire le riz et égouttez-le.",
+      "Coupez les légumes en petits dés et faites-les sauter 5-7 min dans un poêle avec l'huile.",
+      "Ajoutez le riz cuit et la sauce soja, puis mélangez.",
+      "Brouillez les œufs à part, puis incorporez-les au riz sautés."
+    ],
+    "image": "/uploads/1734465079474.jpg"
+  },
+  {
+    "id": "57544d58-efbb-41b4-8b8e-14faac4fdece",
+    "title": "Steak, frites de patate douce et haricots verts avec lardons",
+    "ingredients": [
+      "2 steaks de bœuf",
+      "250 g de haricots verts",
+      "1 sachet de frite de patate douce surgelé",
+      "100 g de lardons",
+      "1 filet d'huile"
+    ],
+    "preparations": [
+      "Préchauffez le four à 200°C",
+      "Jetez les frites surgelées sur une plaque recouverte de papier sulfurisé",
+      "Enfourné pendant 15 min",
+      "Pendant ce temps, faites chauffer 2 poêles avec un filet d'huile",
+      "Dans une poêle faire revenir les lardons jusqu'à ce qu'ils soient dorés.",
+      "Ajouter les haricots et de l'ail puis laisser chauffer.",
+      "Dans la seconde poêle, Saisir les steaks 1min 30 de chaque coté pour une cuisson saignante.",
+      "Servir et assaisonner dans les assiettes"
+    ],
+    "image": "/uploads/1734465304427.jpg"
+  },
+  {
+    "id": "9eb16c83-fcd7-482b-a0f4-c61b6d34419b",
+    "title": "Galettes de légumes maison et salade verte",
+    "ingredients": [
+      "2 pommes de terre",
+      "2 carottes",
+      "1 courgette",
+      "2 oeufs",
+      "40 g de farine",
+      "Sel, poivre, herbes de Provence",
+      "Huile pour la cuisson",
+      "Une salade verte et une vinaigrette maison"
+    ],
+    "preparations": [
+      "Râpez les pommes de terre, les carottes et les courgettes. Essore bien les légumes râpés dans un torchon propre.",
+      "Mélangez les légumes avec les œufs, la farine, le sel, le poivre et les herbes de Provence.",
+      "Formez des petites galettes et faites-les dorer dans un poêle avec de l'huile, 4-5 min de chaque côté.",
+      "Sers avec une salade verte et une vinaigrette."
+    ],
+    "image": "/uploads/1734465468777.jpg"
+  },
+  {
+    "id": "2543579a-ce00-42ed-8ca9-a4f8f3e7a36f",
+    "title": "Tagliatelles aux champignons et sauce crémeuse",
+    "ingredients": [
+      "200 g de tagliatelles",
+      "250 g de champignons de Paris",
+      "1 oignon",
+      "20 cl de crème",
+      "Huile d'olive",
+      "Sel, poivre"
+    ],
+    "preparations": [
+      "Faites cuire les tagliatelles",
+      "Émince l'oignon et fais-le revenir 3-4 min dans l'huile d'olive",
+      "Ajouter les champignons coupés en morceaux et cuis 5-7 min.",
+      "Versez la crème, assaisonnée et laisse mijoter 5 min"
+    ],
+    "image": "/uploads/1734720999312.jpg"
+  },
+  {
+    "id": "30ef881d-bf68-4ab3-9051-8343da8bcc37",
+    "title": "Gratin de gnocchis aux épinards et chèvre",
+    "ingredients": [
+      "250 g de gnocchis",
+      "200 g d'épinards frais ou surgelés",
+      "10 cl de crème légère",
+      "1 bûche de chèvre",
+      "Sel, poivre"
+    ],
+    "preparations": [
+      "Préchauffer le four à 180°C.",
+      "Faites cuire les gnocchis 2 min dans de l'eau bouillante. Égoutte-les.",
+      "Dans un poêle, faites revenir les épinards dans une poêle chaude (sans huile) pendant 5 à 7 minutes pour faire évaporer l'eau.",
+      "Mélangez les gnocchis, la crème et les épinards dans un plat à gratin.",
+      "Disposez les rondelles de chèvre sur le dessus et enfourne 15 min."
+    ],
+    "image": "/uploads/1734631575445.jpg"
+  },
+  {
+    "id": "7494c32f-7d8f-4bca-af3a-64d1ff5b6e3c",
+    "title": "Gratin de courgettes et pommes de terre au fromage",
+    "ingredients": [
+      "300 g de courgettes",
+      "2 pommes de terre",
+      "50 ml de crème légère",
+      "50 g de fromage râpé",
+      "1 oignon"
+    ],
+    "preparations": [
+      "Préchauffer le four à 190°C.",
+      "Coupez la courge et les pommes de terre en tranches fines. Disposez-les dans un plat à gratin.",
+      "Verser la crème, ajoute du fromage râpé et enfourne pour 30 minutes."
+    ],
+    "image": "/uploads/1734728982042.jpg"
+  },
+  {
+    "id": "35506103-68ec-4fe4-81ef-f79ef706c80f",
+    "title": "Pâtes aux légumes et au fromage frais",
+    "ingredients": [
+      "200 g de pâtes",
+      "1 courgette",
+      "1 poivron rouge",
+      "100 g de fromage frais (boursin)",
+      "Huile, sel, poivre, herbes de Provence"
+    ],
+    "preparations": [
+      "Faites cuire les pâtes selon les instructions du paquet.",
+      "Pendant ce temps, coupez la courgette et le poivron en petits dés. Faites-les revenir dans l'huile d'olive à feu moyen pendant 10 minutes",
+      "Égouttez les pâtes et mélangez-les avec les légumes sautés et le fromage frais. Rectifiez l’assaisonnement avec du sel, du poivre et des herbes de Provence."
+    ],
+    "image": "/uploads/1734729266706.jpeg"
+  },
+  {
+    "id": "9ec77156-042f-44e3-8d97-3cfce00791b5",
+    "title": "Poulet sauce miel-moutarde & nouilles",
+    "ingredients": [
+      "2 escalopes de poulet",
+      "250g de pâtes",
+      "2 c. à soupe de moutarde",
+      "1 c. à soupe de miel",
+      "1/2 brocoli",
+      "4 c. à soupe de crème"
+    ],
+    "preparations": [
+      "Lavez puis coupez le brocoli en sommités.",
+      "Faites chauffer un filet d'huile d'olive dans une poêle. Ajoutez le poulet. Salez, poivrez et faites-le cuire 7 à 8 minutes sur une face.",
+      "Pendant ce temps, faites cuire le brocoli dans une casserole d’eau bouillante salée, pendant 4 à 5 minutes. En fin de cuisson, égouttez-le et réservez. Conservez l'eau dans la casserole pour cuire les nouilles.",
+      "Retournez le poulet. Salez et poivrez-le, puis poursuivez la cuisson 7 à 8 minutes sur l'autre face.",
+      "Dans une même casserole d'eau bouillante salée, faites cuire les nouilles selon les indications du paquet, soit environ 6 à 7 minutes. En fin de cuisson, égouttez-les.",
+      "Versez 1/4 de tasse d'eau par personne dans la poêle avec le poulet. Ajoutez la moutarde et le miel, puis mélangez. Optionnel : si vous en avez, ajoutez de l'ail et de l'origan.",
+      "Ajoutez la crème et mélangez. Laissez mijoter sur feu doux, jusqu'à ce que la sauce épaississe. Salez et poivrez.",
+      "Servez le poulet avec les nouilles et le brocoli. Nappez le tout de sauce crémeuse miel-moutarde"
+    ],
+    "image": "/uploads/1734729496871.png"
+  },
+  {
+    "id": "652662c1-0c43-48e8-bcdd-5da024af05fa",
+    "title": "Poêlée de gnocchis au chorizo ​​et poêlée de légumes",
+    "ingredients": [
+      "250 g de gnocchis",
+      "1 chorizo",
+      "150 g de poêlée de légumes surgelée",
+      "3 c. à soupe de crème fraîche",
+      "Sel, poivre et huile d'olive"
+    ],
+    "preparations": [
+      "Faire cuire les gnocchis dans de l'eau bouillante pendant 2-3 minutes.",
+      "Dans une poêle, faire revenir le chorizo coupé en rondelles",
+      "Ajouter la poêlée de légumes et cuire pendant 10 minutes.",
+      "Incorporer les gnocchis et la crème, laisser chauffer 5 minutes."
+    ],
+    "image": "/uploads/1734732472607.jpg"
+  },
+  {
+    "id": "74847363-04f9-4e86-a802-df7991dee1a6",
+    "title": "Tarte salée courgettes, tomate et mozzarella",
+    "ingredients": [
+      "1 pâte feuilletée",
+      "1 courgette",
+      "2 tomates moyennes",
+      "1 boule de mozzarella",
+      "1 c. à soupe de moutarde",
+      "1 c. à soupe d'huile d'olive",
+      "Sel, poivre et herbes de provence"
+    ],
+    "preparations": [
+      "Préchauffer le four à 180°C.",
+      "Étaler la pâte dans un moule à tarte et badigeonner de moutarde.",
+      "Disposer les rondelles de courgettes, tomates et mozzarella.",
+      "Assaisonner avec l'huile d'olive, du sel, du poivre et les herbes de Provence",
+      "Enfourner pendant 40 minutes."
+    ],
+    "image": "/uploads/1734732565370.jpeg"
+  }
+]

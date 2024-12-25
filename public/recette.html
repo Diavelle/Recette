@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recettes</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="four.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1 id="recipeTitle" class="inRecipeTitle"></h1>
+    </header>
+
+    <div id="box">
+        <img id="recipeImage" class="imgRecette" alt="Image de la recette" style="max-width: 100%; height: auto;">
+
+        <h2>Ingrédients</h2>
+        <ol id="ingredientsList"></ol>
+
+        <h2>Préparation</h2>
+        <ol id="preparationSteps"></ol>
+    </div>
+
+    <div id="actions">
+        <a id="editButton" href="#">Modifier la recette</a>
+    </div>
+
+    <script src="recette.js"></script>
+</body>
+</html>
